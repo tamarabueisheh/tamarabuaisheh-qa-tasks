@@ -1,7 +1,7 @@
 /// <reference types= "cypress"/>
 
 describe('TASK #1 - Selectors', () => {
-  it('Finds all required elements', () => {
+  it('Finds all Required elements', () => {
     cy.visit('/#/register');
 
     cy.get('h1.text-xs-center'); // Sign up
